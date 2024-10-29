@@ -1,0 +1,72 @@
+body {
+
+    font-family: "Roboto", Arial;
+    height: 1vh;
+    background-color: rgb(217, 189, 204);
+}
+
+.css-header-container {
+    position: fixed;
+    display: flex;
+    background-color: rgb(124, 5, 66);
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.css-logo-img {
+    width: 50px;
+    margin: 10px 600px 10px 20px;
+    cursor: pointer;
+    border-radius: 80px;
+}
+
+.css-textHeader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-text {
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    font: bold;
+}
+.css-text:hover {
+    background-color: gray;
+    padding: 5px 10px;
+    
+}
+
+.css-home-products-container {
+    display: flex;
+    margin: 100px 0 -70px 50px;
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.css-product-image {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.css-product-details {
+    margin-left: 20px;
+    width: 500px;
+    display: block;
+    border: 1px solid black;
+}
+
+.css-addToCart-button {
+}
